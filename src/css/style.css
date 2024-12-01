@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    font-family: 'public sans', sans-serif;
+}
+
+.logo img{
+    width: 40px;
+    margin: 5px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+header{
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu ul{
+    display: flex;
+    padding: 15px;
+    margin: 10px;   
+}
+
+.menu li{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+}
+
+.menu li a{
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover{
+    display: flex;
+    background-color: #5BC241;
+    color: white;
+    padding: 10px;
+}
+
+
+a.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5BC241;
+    color: white;
+    margin-top: 15px;
+    width: 127px;
+    height: 39px;
+    border-radius: 10px;
+}
